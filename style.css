@@ -54,7 +54,7 @@ input{
   color: rgb(255, 0, 0);
 }
 
-@media only screen and (min-width: 450px ) and  (max-width: 451px) {
+@media only screen and (min-width: 450px ) and  (max-width: 600px) {
 input {
   width: 10px;
 }
