@@ -22,7 +22,7 @@ input{
   padding: 31px;
   width: 100px;
   border: none;
-  margin-top: 2px;
+  /* margin-top: 0px; */
 }
 
 .timer-controls{
@@ -52,4 +52,41 @@ input{
 
 .red{
   color: rgb(255, 0, 0);
+}
+
+@media only screen and (min-width: 450px ) and  (max-width: 451px) {
+input {
+  width: 10px;
+}
+body {
+  background: rgb(255, 0, 0);
+}.display-now {
+  font-size: 3em;
+}
+.display-time-left {
+  font-size: 3em;
+}
+.display-end-time{
+  margin-top: 4em;
+  font-size: 2em
+  
+}
+
+@media only screen and (max-width: 750px ){
+  input {
+    width: 10px;
+  }
+  body {
+    background: rgb(30, 245, 2);
+  }.display-now {
+    font-size: 2.5em;
+  }
+  .display-time-left {
+    font-size: 3em;
+  }
+  .display-end-time{
+    margin-top: 4em;
+    font-size: 2em
+    
+  }
 }
