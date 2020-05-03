@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Document</title>
+</head>
+<body>
+  
+  <div class="timer">
+    <div class="timer-controls">
+      <!-- <button data-time='20' class="timer-button">20 Secs</button> -->
+      <button data-time='300' class="timer-button">5 Mins </button>
+      <button data-time=900' class="timer-button">Pomodoro</button>
+      <button data-time='1800' class="timer-button">Lunch Break</button>
+      <button data-time='2700' class="timer-button">Tacho Break</button>
+      <form name="customForm" id="custom" > 
+        <input type="text" name="minutes" placeholder="Enter Minutes">
+      </form>
+    </div>
+    <div class="display">
+      <h1 class="display-now"></h1>
+      <h1 class="display-time-left"></h1>
+      <p class="display-end-time"></p>
+    </div>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

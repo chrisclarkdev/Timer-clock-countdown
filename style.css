@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(5, 176, 243);
+  font-family: verdana;
+  margin: 0px;
+}
+
+.timer-button{
+  width: 100px;
+  padding: 0 20px;
+  margin-left: -10px;
+  background: rgb(10, 109, 201);
+  border: 1px solid #fff;
+  color: #fff;
+}
+
+input{
+  padding: 31px;
+  width: 100px;
+  border: none;
+  margin-top: 2px;
+}
+
+.timer-controls{
+  display: flex;
+}
+
+.display-time-left {
+  font-size: 10em;
+  color: #fff;
+  margin-top: 100px;
+  text-align: center;
+}
+
+.display-end-time{
+  font-size: 49px;
+  color: #fff;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.display-now {
+  font-size: 10em;
+  text-align: center;
+  margin-top: 120px;
+  color: #fff;
+}
+
+.red{
+  color: rgb(255, 0, 0);
+}
