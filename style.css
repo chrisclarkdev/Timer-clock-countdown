@@ -54,7 +54,9 @@ input{
   color: rgb(255, 0, 0);
 }
 
-@media only screen and (min-width: 450px ) and  (max-width: 600px) {
+@media only screen 
+and (min-device-width : 320px) 
+and (max-device-width : 480px) {
 input {
   width: 10px;
 }
@@ -72,12 +74,13 @@ body {
   
 }
 
-@media only screen and (max-width: 750px ){
-  input {
+
+  /* input {
     width: 10px;
   }
   body {
     background: rgb(30, 245, 2);
+    content: "Hello";
   }.display-now {
     font-size: 2.5em;
   }
@@ -88,5 +91,7 @@ body {
     margin-top: 4em;
     font-size: 2em
     
-  }
+  } */
+
+  c
 }
