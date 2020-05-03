@@ -10,7 +10,7 @@ function timer(seconds) {
   clearInterval(countdown);
   const now = Date.now();
   const then = now + seconds * 1000;
-  console.log(Date.now() + seconds * 1000)
+
   displayTimeLeft(seconds);
   displayEndTime(then);
   
@@ -35,7 +35,7 @@ function displayTimeLeft(seconds){
   const display = `${minutes } : ${remainder < 10 ? '0' : ''}${remainder}`;
   if (seconds < 30 ){
     timerDisplay.classList.add('red')
-    console.log("less than 30")
+
   }
   timerDisplay.textContent = display;
  document.title = display
@@ -43,7 +43,6 @@ function displayTimeLeft(seconds){
  
 function displayEndTime(timestamp){
   const end = new Date(timestamp);
-  console.log(timestamp)
   const hour = end.getHours();
   const minutes = end.getMinutes();
   endTime.textContent = `Be back at ${hour} : ${minutes < 10 ? '0' : ''}${minutes}`
@@ -64,7 +63,7 @@ document.customForm.addEventListener('submit',  function(e) {
 
 function displayTime() {
   time = new Date();
-  console.log(time)
+
   timeHours = time.getHours();
   timeMinutes= time.getMinutes();
   timeSeconds = time.getSeconds();
